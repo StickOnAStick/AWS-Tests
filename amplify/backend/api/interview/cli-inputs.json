@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "interview",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "D:\\Work\\Coding\\ReactNativeNetflix\\amplify\\backend\\api\\interview\\schema.graphql",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "expirationTime": 7
+    }
+  }
+}
