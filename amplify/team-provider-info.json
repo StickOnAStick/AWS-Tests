@@ -10,6 +10,24 @@
       "StackName": "amplify-interview-dev-151807",
       "StackId": "arn:aws:cloudformation:us-west-2:930235193192:stack/amplify-interview-dev-151807/32602890-f279-11ec-a71d-0664cff1fa37",
       "AmplifyAppId": "d1njk2ecngkops"
+    },
+    "categories": {
+      "auth": {
+        "interviewe66723f0": {}
+      }
+    }
+  },
+  "netinter": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-interview-netinter-104216-authRole",
+      "UnauthRoleArn": "arn:aws:iam::930235193192:role/amplify-interview-netinter-104216-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::930235193192:role/amplify-interview-netinter-104216-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-interview-netinter-104216-deployment",
+      "UnauthRoleName": "amplify-interview-netinter-104216-unauthRole",
+      "StackName": "amplify-interview-netinter-104216",
+      "StackId": "arn:aws:cloudformation:us-west-2:930235193192:stack/amplify-interview-netinter-104216/fdf1fb70-f3e4-11ec-b373-0a582f0fbe39",
+      "AmplifyAppId": "d1njk2ecngkops"
     }
   }
 }

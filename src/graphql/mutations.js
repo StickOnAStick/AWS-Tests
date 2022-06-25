@@ -10,6 +10,7 @@ export const createMovie = /* GraphQL */ `
       id
       title
       description
+      tags
       createdAt
       updatedAt
     }
@@ -24,6 +25,7 @@ export const updateMovie = /* GraphQL */ `
       id
       title
       description
+      tags
       createdAt
       updatedAt
     }
@@ -38,6 +40,7 @@ export const deleteMovie = /* GraphQL */ `
       id
       title
       description
+      tags
       createdAt
       updatedAt
     }
