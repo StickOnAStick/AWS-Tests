@@ -100,11 +100,8 @@ export default function App() {
                                   <Popover.CloseButton top="0"/>
                                   <Popover.Header bg="gray.800"_text={{color: 'white', fontSize: 14}} py="1.5">Description</Popover.Header>
                                   <Popover.Body bg="gray.800" _text={{color: 'white', fontSize: 14}} p="3">{movie.description}</Popover.Body>
-                                  <Popover.Footer bg="gray.800"  m="0" p="1">{
-                                      movie.tags.map((tag,idx) => {
-                                        return(<Text color="white" px="1" fontSize={12}>{tag}</Text>);
-                                        })}
-                                    </Popover.Footer>
+                                  <Popover.Footer bg="gray.800"  m="0" p="1">
+                                    {movie.tags.map((tag,idx) => {return(<Text color="white" px="1" fontSize={12}>{tag}</Text>);})} </Popover.Footer>
                                 </Popover.Content>
                             </Popover>
                           </Box>
