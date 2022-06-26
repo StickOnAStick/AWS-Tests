@@ -8,6 +8,7 @@ export const getMovie = /* GraphQL */ `
       title
       description
       tags
+      image
       createdAt
       updatedAt
     }
@@ -25,6 +26,7 @@ export const listMovies = /* GraphQL */ `
         title
         description
         tags
+        image
         createdAt
         updatedAt
       }

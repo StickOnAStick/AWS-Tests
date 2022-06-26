@@ -8,6 +8,7 @@ export const onCreateMovie = /* GraphQL */ `
       title
       description
       tags
+      image
       createdAt
       updatedAt
     }
@@ -20,6 +21,7 @@ export const onUpdateMovie = /* GraphQL */ `
       title
       description
       tags
+      image
       createdAt
       updatedAt
     }
@@ -32,6 +34,7 @@ export const onDeleteMovie = /* GraphQL */ `
       title
       description
       tags
+      image
       createdAt
       updatedAt
     }
